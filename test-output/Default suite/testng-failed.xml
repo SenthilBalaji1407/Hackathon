@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test_case.TC003_">
+        <methods>
+          <include name="setUp"/>
+          <include name="course1"/>
+          <include name="course2"/>
+        </methods>
+      </class> <!-- test_case.TC003_ -->
+      <class name="test_case.TC002_">
+        <methods>
+          <include name="scrolling1"/>
+          <include name="setUp"/>
+          <include name="scrolling"/>
+        </methods>
+      </class> <!-- test_case.TC002_ -->
+      <class name="test_case.TC001_">
+        <methods>
+          <include name="setUp"/>
+          <include name="searching"/>
+        </methods>
+      </class> <!-- test_case.TC001_ -->
+      <class name="test_case.TC004_">
+        <methods>
+          <include name="setUp"/>
+          <include name="learning"/>
+        </methods>
+      </class> <!-- test_case.TC004_ -->
+      <class name="test_case.TC005_">
+        <methods>
+          <include name="setUp"/>
+          <include name="scrolllll"/>
+        </methods>
+      </class> <!-- test_case.TC005_ -->
+      <class name="test_case.TC006_">
+        <methods>
+          <include name="form"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test_case.TC006_ -->
+      <class name="test_case.TC007_">
+        <methods>
+          <include name="setUp"/>
+          <include name="filling"/>
+        </methods>
+      </class> <!-- test_case.TC007_ -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
