@@ -5,6 +5,7 @@
 	<listener class-name="utilities.ExtentReportManager"></listener>
 </listeners>
 <test name="EdgeTest">
+	<parameter name="os" value="windows"></parameter>
   	<parameter name="browser" value="edge"></parameter>
   	<classes>
 <class name="test_case.TC001_"></class>
@@ -18,6 +19,7 @@
   </test>
   
   <test name="ChromeTest">
+  	<parameter name="os" value="windows"></parameter>
   	<parameter name="browser" value="chrome"></parameter>
   	<classes>
 <class name="test_case.TC001_"></class>
