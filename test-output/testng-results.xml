@@ -2,40 +2,40 @@
 <testng-results ignored="12" total="32" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-07T11:25:50 IST" name="Suite" finished-at="2024-03-07T11:29:47 IST" duration-ms="237156">
+  <suite started-at="2024-03-07T17:49:20 IST" name="Suite" finished-at="2024-03-07T17:51:37 IST" duration-ms="136921">
     <groups>
     </groups>
-    <test started-at="2024-03-07T11:25:50 IST" name="Test1" finished-at="2024-03-07T11:29:47 IST" duration-ms="237156">
+    <test started-at="2024-03-07T17:49:20 IST" name="Test1" finished-at="2024-03-07T17:51:37 IST" duration-ms="136921">
       <class name="test_case.TC003_">
-        <test-method signature="course1()[pri:1, instance:test_case.TC003_@791f145a]" started-at="2024-03-07T11:26:44 IST" name="course1" finished-at="2024-03-07T11:26:46 IST" duration-ms="2424" status="PASS">
+        <test-method signature="course1()[pri:1, instance:test_case.TC003_@791f145a]" started-at="2024-03-07T17:50:10 IST" name="course1" finished-at="2024-03-07T17:50:12 IST" duration-ms="2135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- course1 -->
-        <test-method signature="clickcourse1()[pri:2, instance:test_case.TC003_@791f145a]" started-at="2024-03-07T11:26:47 IST" name="clickcourse1" finished-at="2024-03-07T11:27:27 IST" duration-ms="40742" status="PASS">
+        <test-method signature="clickcourse1()[pri:2, instance:test_case.TC003_@791f145a]" started-at="2024-03-07T17:50:13 IST" name="clickcourse1" finished-at="2024-03-07T17:50:25 IST" duration-ms="11406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickcourse1 -->
-        <test-method signature="course2()[pri:3, instance:test_case.TC003_@791f145a]" started-at="2024-03-07T11:27:28 IST" name="course2" finished-at="2024-03-07T11:27:28 IST" duration-ms="194" status="PASS">
+        <test-method signature="course2()[pri:3, instance:test_case.TC003_@791f145a]" started-at="2024-03-07T17:50:25 IST" name="course2" finished-at="2024-03-07T17:50:26 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- course2 -->
-        <test-method signature="clickcourse2()[pri:4, instance:test_case.TC003_@791f145a]" started-at="2024-03-07T11:27:29 IST" name="clickcourse2" finished-at="2024-03-07T11:27:58 IST" duration-ms="28794" status="PASS">
+        <test-method signature="clickcourse2()[pri:4, instance:test_case.TC003_@791f145a]" started-at="2024-03-07T17:50:26 IST" name="clickcourse2" finished-at="2024-03-07T17:50:36 IST" duration-ms="10067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickcourse2 -->
       </class> <!-- test_case.TC003_ -->
       <class name="test_case.TC002_">
-        <test-method signature="clickEnglish()[pri:1, instance:test_case.TC002_@1e0b4072]" started-at="2024-03-07T11:26:39 IST" name="clickEnglish" finished-at="2024-03-07T11:26:42 IST" duration-ms="2625" status="PASS">
+        <test-method signature="clickEnglish()[pri:1, instance:test_case.TC002_@1e0b4072]" started-at="2024-03-07T17:50:04 IST" name="clickEnglish" finished-at="2024-03-07T17:50:06 IST" duration-ms="2188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickEnglish -->
-        <test-method signature="clickLevel()[pri:2, instance:test_case.TC002_@1e0b4072]" started-at="2024-03-07T11:26:42 IST" name="clickLevel" finished-at="2024-03-07T11:26:43 IST" duration-ms="963" status="PASS">
+        <test-method signature="clickLevel()[pri:2, instance:test_case.TC002_@1e0b4072]" started-at="2024-03-07T17:50:06 IST" name="clickLevel" finished-at="2024-03-07T17:50:10 IST" duration-ms="3337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLevel -->
       </class> <!-- test_case.TC002_ -->
       <class name="test_case.TC001_">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:test_case.TC001_@7b36aa0c]" started-at="2024-03-07T11:25:51 IST" name="setup" finished-at="2024-03-07T11:26:17 IST" duration-ms="25690" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:test_case.TC001_@7b36aa0c]" started-at="2024-03-07T17:49:21 IST" name="setup" finished-at="2024-03-07T17:49:50 IST" duration-ms="28528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,71 +51,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searching()[pri:1, instance:test_case.TC001_@7b36aa0c]" started-at="2024-03-07T11:26:17 IST" name="searching" finished-at="2024-03-07T11:26:38 IST" duration-ms="21580" status="PASS">
+        <test-method signature="searching()[pri:1, instance:test_case.TC001_@7b36aa0c]" started-at="2024-03-07T17:49:50 IST" name="searching" finished-at="2024-03-07T17:50:03 IST" duration-ms="13152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searching -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test_case.TC001_@7b36aa0c]" started-at="2024-03-07T11:29:46 IST" name="teardown" finished-at="2024-03-07T11:29:47 IST" duration-ms="1301" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test_case.TC001_@7b36aa0c]" started-at="2024-03-07T17:51:35 IST" name="teardown" finished-at="2024-03-07T17:51:37 IST" duration-ms="1377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- test_case.TC001_ -->
       <class name="test_case.TC007_">
-        <test-method signature="FormFilling3()[pri:1, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T11:29:41 IST" name="FormFilling3" finished-at="2024-03-07T11:29:42 IST" duration-ms="1008" status="PASS">
+        <test-method signature="FormFilling3()[pri:1, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T17:51:29 IST" name="FormFilling3" finished-at="2024-03-07T17:51:30 IST" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFilling3 -->
-        <test-method signature="FormFilling4()[pri:2, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T11:29:42 IST" name="FormFilling4" finished-at="2024-03-07T11:29:43 IST" duration-ms="1320" status="PASS">
+        <test-method signature="FormFilling4()[pri:2, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T17:51:30 IST" name="FormFilling4" finished-at="2024-03-07T17:51:32 IST" duration-ms="1480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFilling4 -->
-        <test-method signature="FormFilling5()[pri:3, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T11:29:43 IST" name="FormFilling5" finished-at="2024-03-07T11:29:44 IST" duration-ms="844" status="PASS">
+        <test-method signature="FormFilling5()[pri:3, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T17:51:32 IST" name="FormFilling5" finished-at="2024-03-07T17:51:33 IST" duration-ms="1168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFilling5 -->
-        <test-method signature="submit()[pri:4, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T11:29:45 IST" name="submit" finished-at="2024-03-07T11:29:45 IST" duration-ms="224" status="PASS">
+        <test-method signature="submit()[pri:4, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T17:51:33 IST" name="submit" finished-at="2024-03-07T17:51:34 IST" duration-ms="590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submit -->
-        <test-method signature="screenshot()[pri:5, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T11:29:45 IST" name="screenshot" finished-at="2024-03-07T11:29:46 IST" duration-ms="317" status="PASS">
+        <test-method signature="screenshot()[pri:5, instance:test_case.TC007_@2794eab6]" started-at="2024-03-07T17:51:35 IST" name="screenshot" finished-at="2024-03-07T17:51:35 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
       </class> <!-- test_case.TC007_ -->
       <class name="test_case.TC006_">
-        <test-method signature="FormFilling1()[pri:1, instance:test_case.TC006_@41a0aa7d]" started-at="2024-03-07T11:29:39 IST" name="FormFilling1" finished-at="2024-03-07T11:29:39 IST" duration-ms="704" status="PASS">
+        <test-method signature="FormFilling1()[pri:1, instance:test_case.TC006_@41a0aa7d]" started-at="2024-03-07T17:51:26 IST" name="FormFilling1" finished-at="2024-03-07T17:51:27 IST" duration-ms="470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFilling1 -->
-        <test-method signature="FormFilling2()[pri:2, instance:test_case.TC006_@41a0aa7d]" started-at="2024-03-07T11:29:40 IST" name="FormFilling2" finished-at="2024-03-07T11:29:40 IST" duration-ms="603" status="PASS">
+        <test-method signature="FormFilling2()[pri:2, instance:test_case.TC006_@41a0aa7d]" started-at="2024-03-07T17:51:27 IST" name="FormFilling2" finished-at="2024-03-07T17:51:28 IST" duration-ms="1010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FormFilling2 -->
       </class> <!-- test_case.TC006_ -->
       <class name="test_case.TC005_">
-        <test-method signature="clickEnterprise()[pri:1, instance:test_case.TC005_@e350b40]" started-at="2024-03-07T11:28:09 IST" name="clickEnterprise" finished-at="2024-03-07T11:28:40 IST" duration-ms="30928" status="PASS">
+        <test-method signature="clickEnterprise()[pri:1, instance:test_case.TC005_@e350b40]" started-at="2024-03-07T17:50:53 IST" name="clickEnterprise" finished-at="2024-03-07T17:51:10 IST" duration-ms="16434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickEnterprise -->
-        <test-method signature="clickOffer()[pri:2, instance:test_case.TC005_@e350b40]" started-at="2024-03-07T11:28:41 IST" name="clickOffer" finished-at="2024-03-07T11:29:08 IST" duration-ms="27488" status="PASS">
+        <test-method signature="clickOffer()[pri:2, instance:test_case.TC005_@e350b40]" started-at="2024-03-07T17:51:11 IST" name="clickOffer" finished-at="2024-03-07T17:51:16 IST" duration-ms="5196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOffer -->
-        <test-method signature="course()[pri:3, instance:test_case.TC005_@e350b40]" started-at="2024-03-07T11:29:08 IST" name="course" finished-at="2024-03-07T11:29:38 IST" duration-ms="29630" status="PASS">
+        <test-method signature="course()[pri:3, instance:test_case.TC005_@e350b40]" started-at="2024-03-07T17:51:16 IST" name="course" finished-at="2024-03-07T17:51:26 IST" duration-ms="9534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- course -->
       </class> <!-- test_case.TC005_ -->
       <class name="test_case.TC004_">
-        <test-method signature="learning()[pri:1, instance:test_case.TC004_@f09733f]" started-at="2024-03-07T11:27:58 IST" name="learning" finished-at="2024-03-07T11:28:00 IST" duration-ms="2274" status="PASS">
+        <test-method signature="learning()[pri:1, instance:test_case.TC004_@f09733f]" started-at="2024-03-07T17:50:37 IST" name="learning" finished-at="2024-03-07T17:50:42 IST" duration-ms="5605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learning -->
-        <test-method signature="clicklanguage()[pri:2, instance:test_case.TC004_@f09733f]" started-at="2024-03-07T11:28:01 IST" name="clicklanguage" finished-at="2024-03-07T11:28:08 IST" duration-ms="6677" status="PASS">
+        <test-method signature="clicklanguage()[pri:2, instance:test_case.TC004_@f09733f]" started-at="2024-03-07T17:50:43 IST" name="clicklanguage" finished-at="2024-03-07T17:50:52 IST" duration-ms="8443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicklanguage -->
-        <test-method signature="clicklevel()[pri:3, instance:test_case.TC004_@f09733f]" started-at="2024-03-07T11:28:08 IST" name="clicklevel" finished-at="2024-03-07T11:28:09 IST" duration-ms="684" status="PASS">
+        <test-method signature="clicklevel()[pri:3, instance:test_case.TC004_@f09733f]" started-at="2024-03-07T17:50:52 IST" name="clicklevel" finished-at="2024-03-07T17:50:53 IST" duration-ms="925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clicklevel -->

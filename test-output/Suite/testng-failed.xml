@@ -1,27 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="os" value="windows"/>
-  <parameter name="browser" value="chrome"/>
+<suite thread-count="3" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test1(failed)">
+  <test thread-count="3" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="test_case.TC007_">
+      <class name="test_case.TC004_">
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="clicklanguage"/>
+          <include name="clicklevel"/>
+          <include name="learning"/>
+        </methods>
+      </class> <!-- test_case.TC004_ -->
+      <class name="test_case.TC001_">
+        <methods>
+          <include name="setup"/>
+          <include name="searching"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_case.TC001_ -->
+      <class name="test_case.TC007_">
+        <methods>
+          <include name="FormFilling3"/>
+          <include name="setup"/>
+          <include name="teardown"/>
           <include name="screenshot"/>
+          <include name="FormFilling5"/>
+          <include name="FormFilling4"/>
+          <include name="submit"/>
         </methods>
       </class> <!-- test_case.TC007_ -->
+      <class name="test_case.TC005_">
+        <methods>
+          <include name="setup"/>
+          <include name="clickEnterprise"/>
+          <include name="teardown"/>
+          <include name="clickOffer"/>
+          <include name="course"/>
+        </methods>
+      </class> <!-- test_case.TC005_ -->
       <class name="test_case.TC006_">
         <methods>
           <include name="FormFilling1"/>
           <include name="setup"/>
+          <include name="FormFilling2"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- test_case.TC006_ -->
+      <class name="test_case.TC003_">
+        <methods>
+          <include name="setup"/>
+          <include name="clickcourse2"/>
+          <include name="clickcourse1"/>
+          <include name="teardown"/>
+          <include name="course1"/>
+          <include name="course2"/>
+        </methods>
+      </class> <!-- test_case.TC003_ -->
+      <class name="test_case.TC002_">
+        <methods>
+          <include name="setup"/>
+          <include name="clickLevel"/>
+          <include name="teardown"/>
+          <include name="clickEnglish"/>
+        </methods>
+      </class> <!-- test_case.TC002_ -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="3" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test_case.TC004_">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="clicklanguage"/>
+          <include name="clicklevel"/>
+          <include name="learning"/>
+        </methods>
+      </class> <!-- test_case.TC004_ -->
+      <class name="test_case.TC001_">
+        <methods>
+          <include name="setup"/>
+          <include name="searching"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_case.TC001_ -->
+      <class name="test_case.TC007_">
+        <methods>
+          <include name="FormFilling3"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="screenshot"/>
+          <include name="FormFilling5"/>
+          <include name="FormFilling4"/>
+          <include name="submit"/>
+        </methods>
+      </class> <!-- test_case.TC007_ -->
+      <class name="test_case.TC005_">
+        <methods>
+          <include name="setup"/>
+          <include name="clickEnterprise"/>
+          <include name="teardown"/>
+          <include name="clickOffer"/>
+          <include name="course"/>
+        </methods>
+      </class> <!-- test_case.TC005_ -->
+      <class name="test_case.TC006_">
+        <methods>
+          <include name="FormFilling1"/>
+          <include name="setup"/>
+          <include name="FormFilling2"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_case.TC006_ -->
+      <class name="test_case.TC003_">
+        <methods>
+          <include name="setup"/>
+          <include name="clickcourse2"/>
+          <include name="clickcourse1"/>
+          <include name="teardown"/>
+          <include name="course1"/>
+          <include name="course2"/>
+        </methods>
+      </class> <!-- test_case.TC003_ -->
+      <class name="test_case.TC002_">
+        <methods>
+          <include name="setup"/>
+          <include name="clickLevel"/>
+          <include name="teardown"/>
+          <include name="clickEnglish"/>
+        </methods>
+      </class> <!-- test_case.TC002_ -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
