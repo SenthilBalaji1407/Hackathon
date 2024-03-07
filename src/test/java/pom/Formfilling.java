@@ -23,7 +23,7 @@ public class Formfilling extends BasePage {
 		// TODO Auto-generated constructor stub
 	}
 JavascriptExecutor js=(JavascriptExecutor) driver;
-@FindBy(xpath="//div[@class='cds-119 css-1hryzk5 cds-121']")
+@FindBy(xpath="//div[@class='css-6192kf']")
 WebElement ScrollForm;
 
 @FindBy(xpath="//input[@id='FirstName']")
@@ -75,14 +75,14 @@ WebElement Submit;
 WebElement Errormsg;
 
 
-public void scrollform() {
-	
-	js.executeScript("arguments[0].scrollIntoView", ScrollForm);
-}
+//public void scrollform(){
+//	
+//	js.executeScript("arguments[0].scrollIntoView", ScrollForm);
+//	
+//}
 
-public void firstname() throws IOException{
+public void firstname() throws IOException, InterruptedException{
 	FirstName.sendKeys(Excel.getCellData("Sheet1", 2, 0));
-
 }
 
 public void scrolldown() {

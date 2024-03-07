@@ -1,0 +1,266 @@
+Problem Statement : Identify Courses
+ 
+Search and display all web development courses 
+ 1. Should be for beginners level.
+ 2. Courses offered in English language
+ 3. Display first two courses with name, total learning hours and rating.
+ (Suggested Site: coursera.org however you are free to choose any other legitimate site)
+ 
+ 
+Detailed Description:
+ 
+1. Search for web development courses for Beginners level & English Language and extract the course names, total learning hours & rating for first 2 courses
+ 2. Look for Language Learning; Extract all the languages and different levels with its total count & display them
+ 3. In Home page, go to "For Enterprise"; Look into Courses for Campus under Product; Fill the "Ready to transform" form with any one input invalid (example: email); Capture the error message & display
+ (Suggested Site: coursera.org however you are free to choose any other legitimate site)
+ 
+ 
+Key Automation Scope
+ 
+Handling different browser windows, search option
+ Extract multiple drop down list items & store in collections
+ Navigating back to home page
+ Filling form (in different objects in web page)
+ Capture warning message
+ Scrolling down in web page
+ 
+ 
+*********************************STEPS TO EXECUTE*********************************
+ 
+-> unzip the folder
+ -> On eclipse, goto file-> import-> select maven-> click on existing maven project->next-> browse the location where u unzip the folder-> click on finish
+ -> Now go to the testng.xml file and run as TestNGSuite.
+ -> Now the file will Execute and we get the expected output as shown below.
+ -> Now go to TestRunner.java file and run as JUnit test.
+ -> Now the file will Execute in Cucumber and we get the expected output as shown below.
+ 
+ 
+*********************************FILES DESCRIPTION*********************************
+ 
+ 1. src/test/java - There are 7 packages present in this folder.
+ 
+-> pageobject : Page Object containing different class contains which are BASEPAGE, FORMFILLING,WEBDEVELOPMENT,SCROLLPAGE,HOMEPAGE
+ 
+-> test_base:In this package we have BaseClass.java is our main project file in which we Firstly invoke the selected browser and generate the report file in html format and store it in report opening Coursera website [Cousera](https://www.coursera.org/) and closing the browser
+ 
+-> test_cases:In this package we have TC001, TC002, TC003,TC004,TC005,TC006,TC007 java files which extends baseClass.java where the methods are present which will login to the page and verify and validate all the testCases.
+ 
+-> utilities: In the utilities package all the read, write work of and extent report work is done.
+ 
+ -> TestRunner : In this package we have TestRunner.java file where we include feature file path and cucumber plugins to generate cucumber report.
+ 
+-> Cucumber.Step : This package contains StepsDefinition.java which contains the testSteps to execute the project in Cucumber and Hooks.java contains the driver setup , screenshots and Closing the browser.
+ 
+-> Factory : In this package we have CucumberBaseClass.java file in which we invoke the browser initialization, we also added logger and properties method to include logs and access config.properties file.
+ 
+-> IdentifyCourse : This package contains the selenium file of the project
+ 
+ 
+2. src/test/resources- In this folder, there are three files
+ 
+ -> config.properties : This file is used to store the reusable values such as apprl,browser name and os name.
+ 
+ -> log4j2.xml : This file is used to generate log informations about the execution of test cases.
+ 
+ -> extent.properties : This file is used to generate the extentReport for the execution in cucumber framework.
+ 
+ 3. JRE System Library: In this File we have all dependencies of JAR.files. 
+ 
+ 4. Maven Dependencies: In this File we have all the directory on the local machine, where all the project artifacts are stored. When a Maven build is executed, Maven automatically downloads all the dependency jars into the local repository. Usually, this directory is named.
+ 
+ 5. Report: In this folder the Test-Report-YYYY.MM.DD.html is present which is the report of the project
+ 
+ 6. ScreenShots : There are 9 images, 1 clickcourse1.png,2 clickcourse2.png, 3 clickenglish.png, 4 clickEnterpriseg.png, 5 clicklanguage.png, 6 clicklevel.png, 7 click offer.png, 8 form filling1,9 form filling2,10 form filling3 ,11 form filling4 ,12 form filling5 ,13 submit
+ 
+7. src: In this, there are two folders
+ 	-main:It is an empty folder
+ 	-test:It is an empty folder
+ 
+ 8. target: It is an empty folder
+ 
+9. Feature Files : In this folder we have all the feature files with .feature extension which needs to be invoked while excuting the project in cucumber framework.
+ 
+ 10. Logs : In this folder logs are present which is generated while executing the project.
+ 
+11. TestData : In this folder we have two files
+ 	-Read : In this excel file all the data which need to be passed to required WebElements are stored.
+ 	-Write : After the execution of project the result will be stored.
+ 
+ 12. pom.xml: The pom.xml file contains information of project and configuration information for the maven to build the project such as dependencies,build directory, source directory, test source directory, plugin, goals etc. Maven reads the pom.xml file, then executes the goal.
+ 
+13. testng.xml : this file contain suit from where the compilation of project begins.
+ 
+ 
+*********************************OUTPUT*********************************
+
+
+
+
+******************************TEST NG RESULT***********************************
+[RemoteTestNG] detected TestNG version 7.4.0
+----------------Searching WebDevelopment--------------------
+----------------Click the Language English--------------------
+----------------Click the Level--------------------
+----------------Click Course 1--------------------
+----------------Click and print Course 1--------------------
+IBM Full Stack Software Developer Professional Certificate
+4.5
+(5,274 reviews)
+4 months at 10 hours a week
+----------------Click Course 2--------------------
+----------------Click and print Coursae 2--------------------
+Meta Front-End Developer Professional Certificate
+4.7
+(14,642 reviews)
+7 months at 6 hours a week
+----------------Search Language Learning--------------------
+----------------print Language--------------------
+English (1,645)
+Spanish (1,101)
+Arabic (1,012)
+French (997)
+Chinese (China) (993)
+Portuguese (Brazil) (988)
+German (977)
+Indonesian (976)
+Hindi (972)
+Italian (971)
+Swedish (970)
+Dutch (969)
+Greek (969)
+Polish (969)
+Thai (969)
+Turkish (969)
+Ukrainian (969)
+Russian (946)
+Kazakh (894)
+Hungarian (697)
+Japanese (90)
+Korean (88)
+Chinese (Traditional) (5)
+Hebrew (2)
+Total count = 25----------------Click and print Levels--------------------
+Beginner (884)
+Intermediate (779)
+Advanced (80)
+Mixed (149)
+Total count = 4
+----------------Scroll the page to Enterprises--------------------
+----------------Scroll the page to Offer--------------------
+----------------Scroll the page to Course--------------------
+----------------Fill the Form--------------------
+----------------ScreenShot of Error Message--------------------
+Must be valid email.
+example@yourdomain.com
+
+===============================================
+Suite
+Total tests run: 20, Passes: 20, Failures: 0, Skips: 0
+===============================================
+
+**************************************CUCUMBER RESULT***********************************************
+
+Scenario: Searching Webdevelopment Courses           Feature/1Homepage.feature:2[0m
+  Givenuser navigate to home page[0m                   stepDefinition.Sd1webdevelopmentcourses.user_navigate_to_home_page()[0m
+
+    Embedding Searching Webdevelopment Courses [image/png 183485 bytes]
+
+  Whenuser search for the WebDevelopment Courses[0m    stepDefinition.Sd1webdevelopmentcourses.user_search_for_the_web_development_courses()[0m
+
+    Embedding Searching Webdevelopment Courses [image/png 469084 bytes]
+
+  Anduser selects the Language and Levels[0m           stepDefinition.Sd1webdevelopmentcourses.user_selects_the_language_and_levels()[0m
+
+    Embedding Searching Webdevelopment Courses [image/png 70166 bytes]
+
+IBM Full Stack Software Developer Professional Certificate
+4.5
+(5,274 reviews)
+4 months at 10 hours a week
+  ThenUser selects course one and display the result stepDefinition.Sd1webdevelopmentcourses.user_selects_course_one_and_display_the_result()[0m
+
+    Embedding Searching Webdevelopment Courses [image/png 623346 bytes]
+
+Meta Front-End Developer Professional Certificate
+4.7
+(14,642 reviews)
+7 months at 6 hours a week
+  AndUser selects course two and display the result stepDefinition.Sd1webdevelopmentcourses.user_selects_course_two_and_display_the_result()[0m
+
+    Embedding Searching Webdevelopment Courses [image/png 623346 bytes]
+
+
+Scenario: Searching LanguageLearning Course              Feature/2LanguageLearning.feature:2[0m
+  Givenuser navigate to Language Learning[0m               stepDefinition.Sd2LanguageLearning.user_navigate_to_language_learning()[0m
+
+    Embedding Searching LanguageLearning Course [image/png 182321 bytes]
+
+  Whenuser Search Language Learning[0m                     stepDefinition.Sd2LanguageLearning.user_search_language_learning()[0m
+
+    Embedding Searching LanguageLearning Course [image/png 530289 bytes]
+
+English (1,645)
+Spanish (1,101)
+Arabic (1,012)
+French (997)
+Chinese (China) (993)
+Portuguese (Brazil) (988)
+German (977)
+Indonesian (976)
+Hindi (972)
+Italian (971)
+Swedish (970)
+Dutch (969)
+Greek (969)
+Polish (969)
+Thai (969)
+Turkish (969)
+Ukrainian (969)
+Russian (946)
+Kazakh (894)
+Hungarian (697)
+Japanese (90)
+Korean (88)
+Chinese (Traditional) (5)
+Hebrew (2)
+Total count = 25  Whenuser select language and display all the languages  stepDefinition.Sd2LanguageLearning.user_select_language_and_display_all_the_languages()[0m
+
+    Embedding Searching LanguageLearning Course [image/png 533979 bytes]
+
+Beginner (884)
+Intermediate (779)
+Advanced (80)
+Mixed (149)
+Total count = 4
+  Anduser select level and display all the levels[0m       stepDefinition.Sd2LanguageLearning.user_select_level_and_display_all_the_levels()[0m
+
+    Embedding Searching LanguageLearning Course [image/png 539977 bytes]
+
+
+Scenario: Click Enterprise and find the product and fill formFeature/3Fillform.feature:2[0m
+  Givenuser navigate to Enterprises[0m                         stepDefinition.Sd3Fillform.user_navigate_to_enterprises()[0m
+
+    Embedding Click Enterprise and find the product and fill form [image/png 182951 bytes]
+
+  Whenuser scroll and select the Enterprises[0m                stepDefinition.Sd3Fillform.user_scroll_and_select_the_enterprises()[0m
+
+    Embedding Click Enterprise and find the product and fill form [image/png 667073 bytes]
+
+  Anduser scroll and select  offer[0m                          stepDefinition.Sd3Fillform.user_scroll_and_select_offer()[0m
+
+    Embedding Click Enterprise and find the product and fill form [image/png 103538 bytes]
+
+  Anduser scroll and select the courses[0m                     stepDefinition.Sd3Fillform.user_scroll_and_select_the_courses()[0m
+
+    Embedding Click Enterprise and find the product and fill form [image/png 798143 bytes]
+
+  Thenuser scroll and fill the form[0m                         stepDefinition.Sd3Fillform.user_scroll_and_fill_the_form()[0m
+
+    Embedding Click Enterprise and find the product and fill form [image/png 148419 bytes]
+
+  Anduser scroll and capture Error msg[0m                      stepDefinition.Sd3Fillform.user_scroll_and_capture_error_msg()[0m
+
+    Embedding Click Enterprise and find the product and fill form [image/png 113142 bytes]
+
+
+

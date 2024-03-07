@@ -7,7 +7,7 @@ import test_base.BaseClass;
 
 public class TC005_  extends BaseClass{
 
-	@Test(priority=1,groups= {"smoke"})
+	@Test(priority=1)
 	public void clickEnterprise() {
 		logger.info("----------------Scroll the page to Enterprises--------------------");
 		Scrollpage sp=new Scrollpage(driver);
@@ -15,7 +15,7 @@ public class TC005_  extends BaseClass{
 	sp.clickenterprises();
 	
 	}
-	@Test(priority=2,groups= {"smoke"})
+	@Test(priority=2)
 	public void clickOffer() {
 		logger.info("----------------Scroll the page to Offer--------------------");
 
@@ -23,7 +23,7 @@ public class TC005_  extends BaseClass{
 	sp.scrollwatch();
 	sp.clickoffer();
 	}
-	@Test(priority=3,groups= {"smoke"})
+	@Test(priority=3)
 	public void course() {
 		logger.info("----------------Scroll the page to Course--------------------");
 

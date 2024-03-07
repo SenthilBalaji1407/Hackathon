@@ -31,19 +31,13 @@ public class BaseClass {
  	@Parameters({"os", "browser"})
  	public void setup(String os, String browser) throws InterruptedException, IOException 
  	{
- 
  		FileReader file=new FileReader(".//src//test//resources//config.properties");
  		property=new Properties();
  		property.load(file);
- 
- 
  		logger=LogManager.getLogger(this.getClass());
- 
  		if(property.getProperty("execution_env").equalsIgnoreCase("remote"))
  		{
- 
  			DesiredCapabilities cap=new DesiredCapabilities();
- 
  			//For Selecting OS:
  			if(os.equalsIgnoreCase("windows"))
  			{
@@ -58,7 +52,6 @@ public class BaseClass {
  				System.out.println("No matching os...");
  				return;
  			}
- 
  			//For Selecting Browser:
  			switch(browser.toLowerCase())
  			{
@@ -67,13 +60,10 @@ public class BaseClass {
  			default:System.out.println("No Matched Browser");
  			return;
  			}
- 
  			driver=new RemoteWebDriver(new URL("http://localhost:4444"), cap);
  		}
- 
  		else if(property.getProperty("execution_env").equalsIgnoreCase("local"))
  			{
- 
  			switch(browser.toLowerCase()) {
  			case "chrome" :driver=new ChromeDriver(); break;
  			case "edge" :driver=new EdgeDriver(); break;
@@ -81,12 +71,10 @@ public class BaseClass {
  			return;
  			}
  		}
- 
  		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
  		driver.get(property.getProperty("appURL"));
  		driver.manage().window().maximize();
  	}
- 
  	@AfterTest
  	public void teardown() 
  	{

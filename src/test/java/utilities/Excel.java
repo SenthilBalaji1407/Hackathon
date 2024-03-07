@@ -53,7 +53,7 @@ public class Excel {
 			try{
 			data = formatter.formatCellValue(cell); 
 			}
-			catch(Exception e)
+			catch(Exception e) 
 			{
 				data="";
 			}

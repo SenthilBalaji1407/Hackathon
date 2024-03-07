@@ -9,7 +9,7 @@ import pom.Webdevelopment;
 import test_base.BaseClass;
 
 public class TC001_ extends BaseClass {
-	@Test(priority=1,groups= {"smoke","Regression"})
+	@Test(priority=1)
 	public void searching() throws IOException {
 		logger.info("----------------Searching WebDevelopment--------------------");
 

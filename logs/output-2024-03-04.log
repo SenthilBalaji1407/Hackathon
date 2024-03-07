@@ -1,0 +1,48 @@
+11:43:08.505 [main] INFO  test_case.TC001_ - ----------------Click and Print Course 2--------------------
+11:43:57.456 [main] INFO  test_case.TC001_ - ----------------Search Language Learning--------------------
+11:44:10.377 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Enterprises--------------------
+11:45:36.920 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Offer--------------------
+11:46:15.609 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Course--------------------
+11:46:57.402 [main] INFO  test_case.TC001_ - ----------------Fill the Form--------------------
+11:47:06.128 [main] INFO  test_case.TC001_ - ----------------ScreenShot of Error Message--------------------
+14:47:52.560 [main] INFO  test_case.TC001_ - ----------------Searching WebDevelopment--------------------
+14:48:07.336 [main] INFO  test_case.TC001_ - ----------------Click the Language English--------------------
+14:48:09.550 [main] INFO  test_case.TC001_ - ----------------Click the Level--------------------
+14:48:12.572 [main] INFO  test_case.TC001_ - ----------------Click and print Coursae 1--------------------
+14:48:26.243 [main] INFO  test_case.TC001_ - ----------------Click and Print Course 2--------------------
+14:48:37.918 [main] INFO  test_case.TC001_ - ----------------Search Language Learning--------------------
+14:48:49.890 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Enterprises--------------------
+14:49:05.035 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Offer--------------------
+14:49:10.749 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Course--------------------
+14:49:19.241 [main] INFO  test_case.TC001_ - ----------------Fill the Form--------------------
+14:49:27.150 [main] INFO  test_case.TC001_ - ----------------ScreenShot of Error Message--------------------
+15:44:24.299 [main] INFO  test_case.TC001_ - ----------------Searching WebDevelopment--------------------
+15:44:39.038 [main] INFO  test_case.TC001_ - ----------------Click the Language English--------------------
+15:44:42.286 [main] INFO  test_case.TC001_ - ----------------Click the Level--------------------
+15:44:43.622 [main] INFO  test_case.TC001_ - ----------------Click Course 1--------------------
+15:44:46.553 [main] INFO  test_case.TC001_ - ----------------Click and print Course 1--------------------
+15:44:58.592 [main] INFO  test_case.TC001_ - ----------------Click Course 2--------------------
+15:44:59.930 [main] INFO  test_case.TC001_ - ----------------Click and print Coursae 2--------------------
+15:45:12.722 [main] INFO  test_case.TC001_ - ----------------Search Language Learning--------------------
+15:45:15.836 [main] INFO  test_case.TC001_ - ----------------print Language--------------------
+15:45:25.320 [main] INFO  test_case.TC001_ - ----------------Click and print Levels--------------------
+15:45:26.478 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Enterprises--------------------
+15:45:42.305 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Offer--------------------
+15:45:48.590 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Course--------------------
+15:45:57.463 [main] INFO  test_case.TC001_ - ----------------Fill the Form--------------------
+15:46:16.653 [main] INFO  test_case.TC001_ - ----------------ScreenShot of Error Message--------------------
+16:36:27.164 [main] INFO  test_case.TC001_ - ----------------Searching WebDevelopment--------------------
+16:36:37.374 [main] INFO  test_case.TC001_ - ----------------Click the Language English--------------------
+16:36:39.264 [main] INFO  test_case.TC001_ - ----------------Click the Level--------------------
+16:36:40.039 [main] INFO  test_case.TC001_ - ----------------Click Course 1--------------------
+16:36:42.464 [main] INFO  test_case.TC001_ - ----------------Click and print Course 1--------------------
+16:36:52.909 [main] INFO  test_case.TC001_ - ----------------Click Course 2--------------------
+16:36:53.855 [main] INFO  test_case.TC001_ - ----------------Click and print Coursae 2--------------------
+16:37:02.282 [main] INFO  test_case.TC001_ - ----------------Search Language Learning--------------------
+16:37:05.851 [main] INFO  test_case.TC001_ - ----------------print Language--------------------
+16:37:10.843 [main] INFO  test_case.TC001_ - ----------------Click and print Levels--------------------
+16:37:12.155 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Enterprises--------------------
+16:37:24.309 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Offer--------------------
+16:37:29.521 [main] INFO  test_case.TC001_ - ----------------Scroll the page to Course--------------------
+16:37:36.675 [main] INFO  test_case.TC001_ - ----------------Fill the Form--------------------
+16:37:43.440 [main] INFO  test_case.TC001_ - ----------------ScreenShot of Error Message--------------------

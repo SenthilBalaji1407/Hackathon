@@ -57,16 +57,16 @@ public class Languagelearning extends BasePage {
 	}
 	
 	public void language() throws IOException {
-//		int count11=0;
+		int count11=0;
 		int row=1;
 		for(WebElement lang:Language) {
 			System.out.println(lang.getText());
 			String data=lang.getText();
 			Excel.write("Sheet1", row, 3, data);
 			row++;
-//			count11++;
+			count11++;
 		}
-			System.out.print("Total count = "+row);
+			System.out.print("Total count = "+count11);
 		}
 
 	public void close() {

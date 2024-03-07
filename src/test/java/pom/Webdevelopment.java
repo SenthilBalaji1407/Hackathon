@@ -25,13 +25,13 @@ public class Webdevelopment  extends BasePage{
 	@FindBy(xpath="(//div[@class='cds-checkboxAndRadio-labelText']//span[text()='English'])[1]")
 	WebElement English;
 
-	@FindBy(xpath="//span[@class=\"cds-checkboxAndRadio-labelContent css-imksha\"]//span[text()='Graduate Certificates']")
+	@FindBy(xpath="//span[@class='cds-checkboxAndRadio-labelContent css-tvqrra']//span[text()='Graduate Certificates']")
 	WebElement Scroll1;
 	
 	@FindBy(xpath="//span[text()='Beginner']")
 	WebElement Level;
 	
-	@FindBy(xpath="(//h3[@class='cds-CommonCard-title css-1sktkql'])[1]")
+	@FindBy(xpath="(//h3[@class='cds-CommonCard-title css-6ecy9b'])[1]")
 	WebElement course1;
 	
 	@FindBy(xpath="//h1[@class='cds-119 cds-Typography-base css-1xy8ceb cds-121']")
@@ -43,7 +43,7 @@ public class Webdevelopment  extends BasePage{
 	@FindBy(xpath="(//div//div[@class='cds-119 cds-Typography-base css-h1jogs cds-121'])[8]")
 	WebElement duration1;
 	
-	@FindBy(xpath="(//h3[@class='cds-CommonCard-title css-1sktkql'])[2]")
+	@FindBy(xpath="(//h3[@class='cds-CommonCard-title css-6ecy9b'])[2]")
 	WebElement course2;
 	 
 	@FindBy(xpath="//h1[@class='cds-119 cds-Typography-base css-1xy8ceb cds-121']")

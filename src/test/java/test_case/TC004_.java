@@ -9,21 +9,25 @@ import test_base.BaseClass;
 
 public class TC004_ extends BaseClass{
 
-	@Test(priority=1,groups= {"smoke","Regression"})
+	@Test(priority=1)
 	public void learning() throws InterruptedException, IOException {
 		Languagelearning ll=new Languagelearning(driver);
 		logger.info("----------------Search Language Learning--------------------");
 	ll.clicksearch();
 	ll.scrolllan();
 	}
-	@Test(priority=2,groups= {"smoke","Regression"})
+	@Test(priority=2)
 	public void clicklanguage() throws InterruptedException, IOException {
+		logger.info("----------------print Language--------------------");
+
 		Languagelearning ll=new Languagelearning(driver);
 		ll.clickshow();
 		ll.language();
 	}
-	@Test(priority=3,groups= {"smoke","Regression"})
+	@Test(priority=3)
 	public void clicklevel() throws InterruptedException, IOException {
+		logger.info("----------------Click and print Levels--------------------");
+
 	Languagelearning ll=new Languagelearning(driver);
 	ll.close();
 	ll.printlevel();

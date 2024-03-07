@@ -39,7 +39,7 @@ public void user_scroll_and_select_the_courses() {
 
 @Then("user scroll and fill the form")
 public void user_scroll_and_fill_the_form() throws IOException, InterruptedException {
-  ff.scrollform();
+//  ff.scrollform();
   ff.firstname();
   ff.scrolldown();
   ff.lastname();
