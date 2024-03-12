@@ -3,50 +3,68 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="test_case.TC004_">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="clicklanguage"/>
+          <include name="clicklevel"/>
+          <include name="learning"/>
+        </methods>
+      </class> <!-- test_case.TC004_ -->
+      <class name="test_case.TC006_">
+        <methods>
+          <include name="FormFilling1"/>
+          <include name="setup"/>
+          <include name="FormFilling2"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_case.TC006_ -->
+      <class name="test_case.TC005_">
+        <methods>
+          <include name="setup"/>
+          <include name="clickEnterprise"/>
+          <include name="teardown"/>
+          <include name="clickOffer"/>
+          <include name="course"/>
+        </methods>
+      </class> <!-- test_case.TC005_ -->
+      <class name="test_case.TC001_">
+        <methods>
+          <include name="setup"/>
+          <include name="searching"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_case.TC001_ -->
+      <class name="test_case.TC002_">
+        <methods>
+          <include name="setup"/>
+          <include name="clickLevel"/>
+          <include name="teardown"/>
+          <include name="clickEnglish"/>
+        </methods>
+      </class> <!-- test_case.TC002_ -->
+      <class name="test_case.TC007_">
+        <methods>
+          <include name="FormFilling3"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="screenshot"/>
+          <include name="FormFilling5"/>
+          <include name="FormFilling4"/>
+          <include name="submit"/>
+        </methods>
+      </class> <!-- test_case.TC007_ -->
       <class name="test_case.TC003_">
         <methods>
-          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="clickcourse2"/>
+          <include name="clickcourse1"/>
+          <include name="teardown"/>
           <include name="course1"/>
           <include name="course2"/>
         </methods>
       </class> <!-- test_case.TC003_ -->
-      <class name="test_case.TC002_">
-        <methods>
-          <include name="scrolling1"/>
-          <include name="setUp"/>
-          <include name="scrolling"/>
-        </methods>
-      </class> <!-- test_case.TC002_ -->
-      <class name="test_case.TC001_">
-        <methods>
-          <include name="setUp"/>
-          <include name="searching"/>
-        </methods>
-      </class> <!-- test_case.TC001_ -->
-      <class name="test_case.TC004_">
-        <methods>
-          <include name="setUp"/>
-          <include name="learning"/>
-        </methods>
-      </class> <!-- test_case.TC004_ -->
-      <class name="test_case.TC005_">
-        <methods>
-          <include name="setUp"/>
-          <include name="scrolllll"/>
-        </methods>
-      </class> <!-- test_case.TC005_ -->
-      <class name="test_case.TC006_">
-        <methods>
-          <include name="form"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test_case.TC006_ -->
-      <class name="test_case.TC007_">
-        <methods>
-          <include name="setUp"/>
-          <include name="filling"/>
-        </methods>
-      </class> <!-- test_case.TC007_ -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
