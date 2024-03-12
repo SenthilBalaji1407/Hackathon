@@ -5,7 +5,11 @@
 	<listener class-name="utilities.ExtentReportManager"></listener>
 </listeners>
 <test name="EdgeTest">
+<<<<<<< HEAD
   	<parameter name="os" value="windows"></parameter>
+=======
+	<parameter name="os" value="windows"></parameter>
+>>>>>>> b657a4f82f28fa1ed466b6db2dec32b360a6e644
   	<parameter name="browser" value="edge"></parameter>
   	<classes>
 <class name="test_case.TC001_"></class>
@@ -19,7 +23,11 @@
   </test>
   
   <test name="ChromeTest">
+<<<<<<< HEAD
     <parameter name="os" value="windows"></parameter>
+=======
+  	<parameter name="os" value="windows"></parameter>
+>>>>>>> b657a4f82f28fa1ed466b6db2dec32b360a6e644
   	<parameter name="browser" value="chrome"></parameter>
   	<classes>
 <class name="test_case.TC001_"></class>
