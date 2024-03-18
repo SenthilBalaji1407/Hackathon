@@ -8,13 +8,13 @@
   </listeners>
   <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="test_case.TC005_">
+      <class name="test_case.TC007_">
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="course"/>
+          <include name="screenshot"/>
         </methods>
-      </class> <!-- test_case.TC005_ -->
+      </class> <!-- test_case.TC007_ -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

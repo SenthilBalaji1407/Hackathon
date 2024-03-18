@@ -19,7 +19,10 @@ import org.apache.logging.log4j.LogManager;
  import org.openqa.selenium.edge.EdgeDriver;
  import org.openqa.selenium.remote.DesiredCapabilities;
  import org.openqa.selenium.remote.RemoteWebDriver;
- import org.testng.annotations.*;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.*;
  
 public class BaseClass {
  
@@ -70,7 +73,9 @@ public class BaseClass {
  			default: System.out.println("No Matching Browser");
  			return;
  			}
- 		}
+ 			
+ 			
+ 			}
  		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
  		driver.get(property.getProperty("appURL"));
  		driver.manage().window().maximize();

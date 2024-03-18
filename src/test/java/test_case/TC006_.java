@@ -18,7 +18,7 @@ public class TC006_ extends BaseClass {
 		ff.firstname();
 	}
 		@Test(priority=2)
-		public void FormFilling2() throws IOException {
+		public void FormFilling2() throws IOException, InterruptedException {
 			
 			Formfilling ff=new Formfilling(driver);
 		ff.scrolldown();

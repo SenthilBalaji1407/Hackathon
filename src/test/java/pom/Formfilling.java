@@ -89,7 +89,8 @@ public void scrolldown() {
 	js.executeScript("arguments[0].scrollIntoView();", ScrollFormdown);
 }
 
-public void lastname() throws IOException {
+public void lastname() throws IOException, InterruptedException {
+	Thread.sleep(2000);
 	LastName.sendKeys(Excel.getCellData("Sheet1", 3, 0));
 }
 

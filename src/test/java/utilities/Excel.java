@@ -16,8 +16,6 @@ public class Excel {
 		//Opening the excel file
 		FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\test data\\Book1.xlsx");
 		XSSFWorkbook book=new XSSFWorkbook(file); 
-		
-		
 		//Creating the sheet if it does not exist
 		if(book.getSheetIndex(sheetName)==-1) {
 			book.createSheet(sheetName);              
@@ -40,9 +38,7 @@ public class Excel {
 		fo.close();
 	}
 	public static String getCellData(String sheetName,int rownum,int colnum) throws IOException
-
 		{
-
 			FileInputStream fi=new FileInputStream(System.getProperty("user.dir")+"\\test data\\ReadData.xlsx");
 			XSSFWorkbook workbook=new XSSFWorkbook(fi);
 			XSSFSheet sheet=workbook.getSheet(sheetName);
@@ -60,6 +56,5 @@ public class Excel {
 			workbook.close();
 			fi.close();
 			return data;
-
 		}
 }
